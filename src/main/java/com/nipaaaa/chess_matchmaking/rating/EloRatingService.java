@@ -1,6 +1,6 @@
 package com.nipaaaa.chess_matchmaking.rating;
 
-class EloRatingService {
+public class EloRatingService {
   private static final int K = 32;
 
   public int calculateNewRating(int playerRating, int opponentRating, double score) {

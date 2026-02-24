@@ -42,6 +42,11 @@ public class Match {
     return id;
   }
 
+  // Only for testing
+  public void setId(Long id) {
+    this.id = id;
+  }
+
   public Player getPlayer1() {
     return player1;
   }
