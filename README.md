@@ -19,24 +19,24 @@ Project ini dibuat untuk belajar:
 ---
 # 🚀 Features
 
-✅ Register player
-✅ Player rating (default 1000)
-✅ Join matchmaking queue
-✅ Auto match berdasarkan rating range (±100)
-✅ Submit match result
-✅ Update rating pakai Elo algorithm
-✅ Unit test untuk business logic (tanpa perlu run server)
+✅ Register player.
+✅ Player rating (default 1000).
+✅ Join matchmaking queue.
+✅ Auto match berdasarkan rating range (±100).
+✅ Submit match result.
+✅ Update rating pakai Elo algorithm.
+✅ Unit test untuk business logic (tanpa perlu run server).
 
 
 ---
 # 🧠 Tech Stack
 
-✅Java 25
-✅Spring Boot 4
-✅Spring Data JPA
-✅H2 Database
-✅JUnit
-✅Mockito
+✅ Java 25.
+✅ Spring Boot 4.
+✅ Spring Data JPA.
+✅ H2 Database.
+✅ JUnit.
+✅ Mockito.
 
 
 ---
@@ -109,7 +109,7 @@ EloRatingService
 
 ## Submit Match Result
 
-`POST /matches/{matchId}/result?result`
+`POST /match/{matchId}/result?result`
 
 Possible result values:
 - PLAYER1_WIN
@@ -163,17 +163,17 @@ Untuk menjalankan test:
 # 📏 Scope & Limitations
 
 Project ini sengaja dibuat sederhana:
-❌Tidak ada WebSocket
-❌Tidak ada distributed system
-❌Tidak ada concurrency handling kompleks
-❌Tidak ada anti-cheat
-❌Tidak ada game engine
+❌ Tidak ada WebSocket.
+❌ Tidak ada distributed system.
+❌ Tidak ada concurrency handling kompleks.
+❌ Tidak ada anti-cheat.
+❌ Tidak ada game engine.
 
 Fokus hanya pada:
-✅Matchmaking logic
-✅Rating update
-✅Clean architecture
-✅Testable service layer
+✅ Matchmaking logic.
+✅ Rating update.
+✅ Clean architecture.
+✅ Testable service layer.
 
 
 ---
