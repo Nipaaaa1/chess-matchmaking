@@ -1,5 +1,8 @@
 package com.nipaaaa.chess_matchmaking.rating;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class EloRatingService {
   private static final int K = 32;
 
